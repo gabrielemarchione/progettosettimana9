@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  background-color: black;
+  overflow-x: hidden !important;
+}
+
+.franco{
+  margin-left: 1.5% !important;
+}
+ .footer-links a {
+  color: #3C3C3C;
+ }
+
+ #root img {
+  width: 100%;
+  height: 100%;
+ }
+
+ img:hover {
+  transform: scale(1.1);
+}
+img {
+  transition: transform 0.2s;
+}
+
+.titoloFilm{
+  visibility: hidden;
+}
+
+.latos{
+  margin-right: 4.5% !important;
+}
+.footer-links a:hover{
+  color: white;
+}
+.netflixlogo{
+  width: 15% !important;
+}
